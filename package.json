@@ -1,0 +1,30 @@
+{
+  "name": "learn-flow",
+  "version": "1.0.0",
+  "description": "Sample repository to keep my study files while I keep learning...",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftonato/learn-flow.git"
+  },
+  "keywords": [
+    "flow",
+    "learn-flow"
+  ],
+  "author": "Ademílson F. Tonato <ademilsonft@outlook.com> (https://github.com/ftonato)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftonato/learn-flow/issues"
+  },
+  "homepage": "https://github.com/ftonato/learn-flow#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.74.0"
+  }
+}
